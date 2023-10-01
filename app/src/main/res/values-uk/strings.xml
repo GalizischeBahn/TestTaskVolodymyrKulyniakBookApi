@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestTaskVolodymyrKulyniak</string>
+    <string name="combined_fiction">Друкований та електронний фікшн</string>
+    <string name="hardcover_fiction">Фікшн у твердій обкладинці</string>
+    <string name="paperback_trade_fiction">Фікшн у мʼякій обкладинці</string>
+    <string name="combined_nonfiction">Друкований та електронний нон-фікшн</string>
+    <string name="hardcover_nonfiction">Фікшн у твердій</string>
+    <string name="paperback_trade_nonfiction">Фікшн у мʼякій обкладинці</string>
+    <string name="buy_button">Купити</string>
+    <string name="publisher">Видавець: %1s.</string>
+    <string name="author">Автор: %1s.</string>
+    <string name="rank">Рейтинг: #%1s.</string>
+</resources>

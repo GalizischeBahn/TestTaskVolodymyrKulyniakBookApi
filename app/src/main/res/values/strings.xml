@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TestTaskVolodymyrKulyniak</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="combined_fiction">Combined Print &amp; E-Book Fiction</string>
+    <string name="hardcover_fiction">Hardcover Fiction</string>
+    <string name="paperback_trade_fiction">Paperback Trade Fiction</string>
+    <string name="combined_nonfiction">Combined Print &amp; E-Book Nonfiction</string>
+    <string name="hardcover_nonfiction">Hardcover Nonfiction</string>
+    <string name="paperback_trade_nonfiction">Paperback Nonfiction</string>
+    <string name="buy_button">Buy</string>
+    <string name="publisher">Publisher: %1s.</string>
+    <string name="author">Author: %1s.</string>
+    <string name="rank">Rank: #%1s.</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

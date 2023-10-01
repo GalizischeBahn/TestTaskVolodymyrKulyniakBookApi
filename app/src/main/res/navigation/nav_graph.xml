@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/booksOptionsFragment">
+    <fragment
+        android:id="@+id/booksOptionsFragment"
+        android:name="com.example.testtaskvolodymyrkulyniak.ui.fragments.BooksOptionsFragment"
+        android:label="fragment_books_options"
+        tools:layout="@layout/fragment_books_options" >
+        <action
+            android:id="@+id/action_booksOptionsFragment_to_giphyListFragment"
+            app:destination="@id/bookListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookListFragment"
+        android:name="com.example.testtaskvolodymyrkulyniak.ui.fragments.BookListFragment"
+        android:label="fragment_giphy_list"
+        tools:layout="@layout/fragment_book_list" >
+        <argument android:name="query" />
+        <action
+            android:id="@+id/action_bookListFragment_to_bookPurchaseFragment"
+            app:destination="@id/bookPurchaseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookPurchaseFragment"
+        android:name="com.example.testtaskvolodymyrkulyniak.ui.fragments.BookPurchaseFragment"
+        android:label="book_purchase_fragment"
+        tools:layout="@layout/book_purchase_fragment" >
+        <argument android:name="url"
+            app:argType="string" />
+    </fragment>
+</navigation>
